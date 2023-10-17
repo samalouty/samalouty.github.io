@@ -26,12 +26,38 @@ video {
     margin-top: -100px;
 }
 
-.hero-container> p {
-    margin-top: 8px;
-    color: #fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
-    'Lucida Sans', Arial, Helvetica, sans-serif;
+.hero-container > p {
+  margin-top: 8px;
+  color: #fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+  'Lucida Sans', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+.hero-container > p::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #e2a100; /* Highlight color */
+  margin: 0 auto 15px;
+}
+
+.hero-container > p::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #e2a100; /* Highlight color */
+  margin: 15px auto 0;
+}
+
 
 .hero-btns{
     margin-top: 32px;
