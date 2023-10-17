@@ -11,10 +11,10 @@ function Cards() {
         <div className='cards__wrapper'>
             <ul className='cards__items'>
                 <CardItem 
-                src = "\images\img-9.jpg"
-                text = "some waterfalls wow!"
-                label = 'Adventure'
-                path = '/services'
+                src = "\images\Langs.jpg"
+                text = "These are the languages that I currently know, click to see some projects on each of them!"
+                label = 'Languages Learned'
+                path = 'https://github.com/samalouty'
 
                 />
                 <CardItem

@@ -1,0 +1,58 @@
+body {
+    background-image: url('C:\Users\Samalouty\Desktop\maze project\samalouty.github.io\public\images\img-10.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+    color: #fff;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 4rem;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+
+.content {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .scroll-up {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s ease;
+  }
+  
+  .scroll-up.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .scroll-up img {
+    width: 100%;
+    max-width: 400px; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .scroll-up h3 {
+    font-size: 24px; 
+    color: #fff; 
+    margin-bottom: 20px;
+  }
+  
+  .scroll-up p {
+    font-size: 18px; 
+    color: #fff; 
+  }
+
+
+  
