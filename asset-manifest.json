@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0dd9bd3a.css",
-    "main.js": "/static/js/main.ef89a446.js",
+    "main.js": "/static/js/main.586c4b3a.js",
     "static/media/Education.jpg": "/static/media/Education.bae191aefd78c543a749.jpg",
     "static/media/img-2.jpg": "/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
     "static/media/img-10.jpg": "/static/media/img-10.4f7e518f3b41cf879fc4.jpg",
@@ -9,10 +9,10 @@
     "static/media/img-8.jpg": "/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
     "index.html": "/index.html",
     "main.0dd9bd3a.css.map": "/static/css/main.0dd9bd3a.css.map",
-    "main.ef89a446.js.map": "/static/js/main.ef89a446.js.map"
+    "main.586c4b3a.js.map": "/static/js/main.586c4b3a.js.map"
   },
   "entrypoints": [
     "static/css/main.0dd9bd3a.css",
-    "static/js/main.ef89a446.js"
+    "static/js/main.586c4b3a.js"
   ]
 }
