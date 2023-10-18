@@ -28,7 +28,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/wordle.jpg'
-              text='Gucks, Nymph, Waltz, Vibex and Fjord are 5 words with 25 unique characters, click to see how I did it effeciently in C!'
+              text='Gucks, Nymph, Waltz, Vibex and Fjord are 5 words with 25 unique characters, click to see how I did it efficiently in C!'
              
               
               
