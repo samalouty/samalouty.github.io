@@ -6,42 +6,47 @@ import './Cards.css'
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check me out boi</h1>
+      
       <div className='cards__container'>
         <div className='cards__wrapper'>
             <ul className='cards__items'>
                 <CardItem 
-                src = "\images\Langs.jpg"
-                text = "These are the languages that I currently know, click to see some projects on each of them!"
-                label = 'Languages Learned'
-                path = 'https://github.com/samalouty'
+                src = "\images\img-14.jpg"
+                text = "Simulating noise cancellation in headphones by creating a sound then adding random noise and then removing the noise"
+                label = 'Python'
+                path = 'https://github.com/samalouty/Noise-Cancellation'
 
                 />
-                <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+                <CardItem 
+              src='images/game.jpg'
+              text='"The Last of Us: Legacy" A Complete 2d game built from scratch with no engine to demonstarte OOP skills'
+              label='Java group project'
+              path='https://github.com/Mohamed-Ahmed-Taha/The-Last-of-Us-Legacy'
+              
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              src='images/wordle.jpg'
+              text='Gucks, Nymph, Waltz, Vibex and Fjord are 5 words with 25 unique characters, click to see how I did it effeciently in C!'
+             
+              
+              
+              label='C programming language'
+              path='https://github.com/samalouty/5words-25uniqueletters'
+              
             />
             <CardItem
-              src='images/img-4.jpg'
+              src='images/chess.jpg'
               text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+              label='Haskell'
+              path='https://github.com/samalouty/haskell_chess'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              src='images/tic.jpg'
+              text='Created a more fun tic tac toe that reduces the possibilty of a boring draw'
+              label='JavaFX'
+              path='https://github.com/samalouty/FunTicTacToe'
             />
             </ul>
         </div>

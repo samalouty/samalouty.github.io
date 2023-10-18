@@ -50,6 +50,7 @@ video {
 }
 
 .hero-container > p::after {
+  object-fit: cover;
   content: "";
   display: block;
   width: 30px;

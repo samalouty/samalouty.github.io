@@ -1,0 +1,77 @@
+
+body {
+    background-image: url('C:\Users\Samalouty\Desktop\maze project\samalouty.github.io\public\images\Education.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff; 
+    font-family: 'Arial', sans-serif; 
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; 
+  }
+  
+  h2 {
+    font-size: 2rem; 
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  
+  .Cards {
+    width: 300px; 
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9); 
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .Cards:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem; 
+    margin-top: 10px;
+  }
+  
+  .card-description {
+    font-size: 1rem; 
+    color: #555; 
+    margin-top: 10px;
+  }
+  
+  .card-links {
+    margin-top: 20px;
+  }
+  
+  .github-link {
+    color: #0077b6; 
+    text-decoration: none;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+  
+  .github-link:hover {
+    color: #005d99; 
+  }
+  
