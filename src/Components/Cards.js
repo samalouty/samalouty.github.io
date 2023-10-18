@@ -38,7 +38,7 @@ function Cards() {
             />
             <CardItem
               src='images/chess.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
+              text='Text-based chess, movement is done by utilizing haskell functions'
               label='Haskell'
               path='https://github.com/samalouty/haskell_chess'
             />
