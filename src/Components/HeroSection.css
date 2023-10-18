@@ -8,8 +8,8 @@ video {
 
 
 .hero-container {
-    /* background: url('images/img-home.jpg') center center/cover
-    no-repeat;  */
+    background: url('C:\Users\Samalouty\Desktop\maze project\samalouty.github.io\public\images\img-10.jpg') center center/cover
+    no-repeat; 
     height: 100vh;
     width: 100%;
     display: flex;
