@@ -2,7 +2,6 @@ import React from 'react';
 import Cards from '../Cards';
 import './Projects.css'
 import { Button2 } from '../Button2';
-import { CoolButton } from '../CoolButton';
 
 
 
